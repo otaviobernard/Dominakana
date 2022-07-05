@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>República DominaKana</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/scriptSlide.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hurricane&display=swap" rel="stylesheet">
+</head>
+
+<body onload="javascript:currentSlide(1)">
+
+    <div id="logo">
+        <img href="../index.html" src="img/logo.png">
+    </div>
+
+    <div id="dkmenu">
+        <a href="index.html" class="botaomenu">Início</a>
+        <a href="html/casa.html" class="botaomenu">Nossa Casa</a>
+        <a href="html/exaluno.html" class="botaomenu">Ex-Alunos</a>
+        <a href="html/historia.html" class="botaomenu">História</a>
+        <a href="html/contato.html" class="botaomenu">Contato</a>
+    </div>
+
+    <div id="divfotos">
+        <div id="imgs">
+            <img src="img/exaluno.jfif" class="fotosindex">
+            <img src="img/hino.jfif" class="fotosindex">
+            <img src="img/japa.jfif" class="fotosindex">
+            <img src="img/athos.jfif" class="fotosindex">
+        </div>
+    </div>
+
+    <div id="slide">
+        <div class="botao">
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        </div>
+
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="img/cidim.jpg" style="width:50%">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="img/cidimaparissao.jpg" style="width:50%">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="img/rivotrix.jpg" style="width:50%">
+            </div>
+
+        </div>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+        <div class="botao">
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+
+    </div>
+
+    <div id="textodk">
+        <p>"Por onde passamos somos bem amados..."</p>
+    </div>
+
+    <div id="divdupla">
+        <div id="resumo">
+            <div id="imagemtexto">
+                <img href="../index.html" src="img/logo.png">
+            </div>
+            <div id="textoimagem">
+                <h1>Resumo DK</h1>
+                <p>AFOBS AFOBS AFOBS AFOBS AFOBS AFOBS AFOBS AFOBS AFOBS AFOBS AFOBS AFOBS AFOBS AFOBS AFOBS AFOBS AFOBS AFOBS AFOBS AFOBS AFOBS AFOBS AFOBS AFOBS AFOBS AFOBS AFOBS AFOBS AFOBS AFOBS AFOBS AFOBS </p>
+            </div>
+        </div>
+
+        <div id="mapa">
+            <p align="center">AQUI TERÁ UM MAPA</p>
+            <!-- <img src="img/ufopway.jpeg"> -->
+        </div>
+    </div>
+
+</body>
+
+</html>
